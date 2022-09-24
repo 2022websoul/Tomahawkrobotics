@@ -1,0 +1,1322 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* ---------------HEADER SECTION--------------- */
+.css-11b3ww9-MuiPaper-root-MuiAppBar-root {
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+
+/*----main----*/
+.video{
+  max-width: 100%;
+}
+.content{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 330px;
+  left: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  color: white;
+}
+.slick-dots{
+  display: none !important;
+}
+.slick-next:before, .slick-prev:before {
+  color: transparent;
+}
+.uk-h2, h2{
+  color: white;
+  font-size: 60px;
+  width: 50%;
+}
+.fading{
+  transform: translate(150PX,-600px);
+  font-size: 22px;
+}
+hr.new5 {
+  border: 2px solid rgb(41, 41, 255);
+  border-radius: -2px;
+  width: 120px;
+}
+.com{
+  color: white;
+  font-size: 28px;
+  transform: translateY(-30px);
+}
+.para{
+  transform: translateY(-10px);
+  font-size: 23px; 
+}
+.button {
+  border: none;
+  color: transparent;
+  padding: 14px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer !important;
+}
+.button1 {
+  background: transparent; 
+  color: white !important; 
+  border: 2px solid white !important;
+  width: 15%;
+  font-weight: 800;
+  display: block !important;
+  transform: translateY(-20px);
+}
+.lin1{
+transform: translate(100px,-61px);
+}
+.twi1{
+  transform: translate(110px,-61px);
+}
+.css-i4bv87-MuiSvgIcon-root{
+  font-size: 3.5rem;
+}
+
+/*----first slide-----*/
+.h1uni{
+  text-align: justify;
+  flex: 0 0 100%;
+  max-width: 100%;
+  position: relative;
+  width: 100%;
+  padding-right: 155px;
+  padding-left: 155px;
+  box-sizing: inherit;
+  transform: translateY(-150px);
+}
+.header1{
+  color: #1e1e1e;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0px;
+  line-height: 1.1em;
+  width: 150%;
+}
+.para1{
+  color: #1e1e1e;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    text-transform: unset;
+    letter-spacing: 0px;
+    line-height: 1.3em;
+    transform: translateX(15px);
+}
+.vl1 {
+  border-left: 4px solid rgb(12, 114, 174, 100);
+  height: 110px;
+}
+
+/*----second slide----*/
+
+.uk-card.uk-card-default.uk-grid-collapse.uk-child-width-1-2{
+width: 50%;
+}
+.uk-card-media-left.uk-cover-container{
+  height: 50%;
+  width: 40%;
+  vertical-align: middle;
+  background-position: 50% 50%;
+  flex-direction: column;
+  transform: translateX(150px);
+  padding-right: 15px;
+ 
+}
+.uk-card-body{
+  transform: translate(670px,-443px);
+  width: 90%;
+ 
+}
+.uk-card-title{
+  font-size: 28px;
+  color: #1e1e1e;
+}
+.kiki{
+  font-size: 22px;
+  color: #1e1e1e;font-style: normal;
+  font-weight: normal;
+  text-decoration: none;
+  text-transform: unset;
+  letter-spacing: 0px;
+  line-height: 1.3em;
+}
+.button {
+  border: none;
+  color: transparent;
+  padding: 14px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer !important;
+}
+.button2 {
+  background-color: transparent; 
+  color: black; 
+  border: 2px solid black;
+  width: 28%;
+  font-weight: 700;
+  font-size: 13px;
+  width: 37%;
+}
+.uk-card-default{
+  background-color: transparent !important;
+  transform: translateY(-144px)
+}
+/*---third slide-----*/
+
+.h1keni{
+  text-align: justify;
+  flex: 0 0 100%;
+  max-width: 100%;
+  position: relative;
+  width: 100%;
+  padding-right: 155px;
+  padding-left: 155px;
+  box-sizing: inherit;
+  transform: translateY(-575px);
+}
+.header2{
+  color: #1e1e1e;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0px;
+  line-height: 1.1em;
+}
+.para2{
+  color: #1e1e1e;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    text-transform: unset;
+    letter-spacing: 0px;
+    line-height: 1.3em;
+    transform: translateX(15px);
+}
+.vl2 {
+  border-left: 4px solid rgb(12, 114, 174, 100);
+  height: 110px;
+}
+
+/*---fourth----*/
+.css-mhc70k-MuiGrid-root {
+  width: calc(100% ) !important;
+   
+}
+.css-i9gxme 
+  {width: 60%;
+  margin:auto;
+  transform: translateY(-400px);}
+
+
+
+  .css-19q2lgu-MuiPaper-root {
+      padding: 0px !important;
+      color: #fff !important;
+      background: rgba(30, 30, 30, 1) !important;
+  }
+
+  .card1text{
+    padding: 25px;
+      text-align: justify;
+  }
+
+/*---fifth slide---*/
+
+.h1want{
+  text-align: justify;
+  flex: 0 0 100%;
+  max-width: 100%;
+  position: relative;
+  width: 100%;
+  padding-left: 155px;
+  box-sizing: inherit;
+  transform: translate(-20px,-200px);
+}
+    .header3{
+    color: #1e1e1e;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    text-transform: uppercase;
+    line-height: 1.1em;
+}
+.para3{
+  color: #1e1e1e;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    text-transform: unset;
+    letter-spacing: 0px;
+    line-height: 1.3em;
+}
+.button {
+  border: none;
+  color: transparent;
+  padding: 14px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer !important;
+}
+.button3 {
+  background-color: transparent; 
+  color: black; 
+  border: 2px solid black;
+  width: 14%;
+  font-weight: 700;
+}
+/*  CAROUSEL SLIDE */
+.crsl{
+  transform: translateY(-100px);
+}
+.def{
+  color: white;
+  font-size: 40px;
+  transform: translate(-400px,-110px);
+}
+.ent{
+  color: white;
+  font-size: 40px;
+  transform: translate(-400px,-400px);
+}
+.sol{
+  color: white;
+  font-size: 40px;
+  transform: translate(-400px,-200px);
+}
+.word1{
+   font-size: 22px;
+   transform: translate(-10px,-110px);
+   text-align: justify;
+}
+.word2{
+  font-size: 22px;
+  transform: translate(-30px,-400px);
+  text-align: justify;
+}
+.word3{
+  font-size: 22px;
+  transform: translate(-30px,-200px);
+  text-align: justify;
+}
+.btn{
+  transform: translate(-605px,10px);
+  color: white;
+}
+.uk-button.uk-button-default{
+  color: white;
+  transform: translate(-400px,-80px);
+  padding: 10px 26px;
+  font-weight: 600;
+  font-size: 18px;
+}
+.uk-button.uk-button-default1{
+  color: white;
+  transform: translate(-425px,-370px);
+  padding: 10px 26px;
+  font-weight: 600;
+  font-size: 18px;
+}
+.uk-button.uk-button-default2{
+  color: white;
+  transform: translate(-420px,-170px);
+  padding: 10px 26px;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+/*---seventh slide---*/
+.container{
+  background-image: url('https://www.tomahawkrobotics.com/hubfs/footer%20fader.png');
+  max-width: 100%;
+  width: 1000%;
+}
+.h1tru{
+  text-align: justify;
+  flex: 0 0 100%;
+  max-width: 100%;
+  position: relative;
+  width: 100%;
+  padding-left: 155px;
+  padding-right: 155px;
+  padding-left: 155px;
+  box-sizing: inherit;
+  transform: translateY(-30px);
+}
+.header4{
+  color: #1e1e1e;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: none;
+  text-transform: uppercase;
+  line-height: 1.1em;
+}
+.para4{
+  color: #1e1e1e;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 300;
+  font-weight: normal;
+  text-decoration: none;
+  text-transform: unset;
+  letter-spacing: 0px;
+  line-height: 1.3em;
+  transform: translateX(15px);
+}
+.vl {
+  border-left: 4px solid rgb(12, 114, 174, 100);
+  height: 110px;
+}
+
+
+/*  footer section  */
+
+.last{
+  background-color: black;
+}
+.flogo{
+  transform: translateY(50px);
+}
+
+.fdata1{
+  transform: translate(50px,-10px)
+}
+.fdata2{
+  transform: translate(50px,-10px)
+}
+.fdata3{
+  transform: translate(50px,-10px)
+}
+.one{
+  transform: translateX(80px);
+}
+.two{
+  transform: translateX(200px);
+}
+.three{
+  transform: translateX(80px);
+}
+.four{
+  transform: translateX(200px);
+}
+.five{
+  transform: translateX(80px);
+}
+.six{
+  transform: translateX(200px);
+}
+.dfourth{
+  transform: translate(-360px,160px);
+}
+.uk-table{
+  color: white;
+}
+.line1{
+ color: white;
+}
+
+.first{
+  color: white;
+  font-size: 13px;
+}
+.second{
+  color: white;
+  font-size: 13px;
+}
+.third{
+  color: white;
+  font-size: 13px;
+}
+
+/* icons */
+
+.twi{
+color:white;
+transform: translate(730px,-250px);
+}
+.lin{
+  color:white;
+  transform: translate(740px,-250px);
+}
+.you{
+  color:white;
+  transform: translate(750px,-250px);
+  font-size: 15px;
+}
+
+/*--------------//////RESPONSIVE OF HOME PAGE////-------------*/
+
+@media screen and (max-width:1025px) {
+  /*header*/
+  .video{
+    max-width: 100%;
+  }
+  .hlogo{
+    width: 150px;
+  }
+  .css-11b3ww9-MuiPaper-root-MuiAppBar-root{
+   padding-right: 700px;
+  }
+  .fading{
+    width: 150%;
+    transform: translate(50px,-470px);
+  }
+  .content{
+    transform: translate(-97px,-60px);
+  }
+  .button{
+    padding:11px 20px ;
+  }
+  .button1 {
+    background-color: transparent; 
+    color: white; 
+    border: 2px solid white;
+    width: 18%;
+    font-weight: 500;
+    font-size: 16PX;
+  }
+  /*first slide*/
+  .h1uni{
+      text-align: justify !important;
+      padding-left: 60px;
+      padding-right: 60px;
+    }
+  .header1{
+      font-size: 50px;
+      font-weight: 350;
+  }
+  .para1{
+      font-size: 21px;
+  }
+ /*second slide*/
+ .uk-card-default {
+  background-color: transparent !important;
+  color: #666;
+ }
+ .uk-card-media-left.uk-cover-container{
+  transform: translateX(50px);
+ }
+ .uk-card-title {
+  font-size: 30px;
+  font-weight: 350;
+  transform: translate(-230px,80px);
+}
+ .kiki{
+  font-size: 21px;
+  transform: translate(-230px,65px);
+  width: 115%;
+ }
+ .button2{
+  background-color: transparent; 
+  color: black; 
+  border: 2px solid black;
+  width: 28%;
+  font-weight: 800;
+  font-size: 17px;
+  width: 41%;
+  transform: translate(-230px,80px);
+ }
+ /*slide third*/
+ .h1keni{
+  text-align: justify !important;
+  padding-left: 60px;
+  padding-right: 60px;
+  transform: translateY(-500px);
+ }
+ .header2{
+  font-size: 50px;
+  font-weight: 350;
+ }
+ .para2{
+  font-size: 22px;
+ }
+ /*fourth slide*/
+ .h1want{
+  text-align: justify !important;
+  padding-left: 100px;
+  padding-right: 200px;
+ }
+ .header3{
+  font-size: 50px;
+  font-weight: 350;
+ }
+ .para3{
+  font-size: 21px;
+  font-weight: 400;
+  transform: translateY(-10px);
+ }
+ .button3{
+  width: 21%;
+  font-size: 14px;
+  transform: translateY(-32px);
+ }
+ .css-mhc70k-MuiGrid-root{
+  flex-grow: 1;
+  transform: translate(40px, -338px);
+ }
+ /*carousal*/
+ .uk-button.uk-button-default {
+  transform: translate(-290px,-20px);
+ }
+ .word1{
+  transform: translate(-15px,-20px);
+ }
+ .def{
+  transform: translate(-300px,-20px);
+ }
+ .uk-button.uk-button-default1{
+  transform: translate(-290px,-130px);
+ }
+ .word2{
+  transform: translate(-15px,-150px);
+ }
+ .ent{
+  transform: translate(-270px,-200px); 
+ }
+ .uk-button.uk-button-default2{
+  transform: translate(-290px,-90px);
+ }
+ .word3{
+  transform: translate(-15px,-105px);
+ }
+ .sol{
+  transform: translate(-270px,-150px);
+ }
+ /*seventh slide*/
+ .h1tru{
+  text-align: justify !important;
+  padding-left: 60px;
+  padding-right: 60px;
+ }
+ .header4{
+  font-size: 50px;
+  width: 100%;
+ }
+ .para4{
+  font-size: 21px;
+ }
+ /*footer*/
+ .two{
+  transform: translateX(300px);
+ }
+ .four{
+  transform: translateX(300px);
+ }
+ .six{
+  transform: translateX(300px);
+ }
+ .one{
+  transform: translateX(200px);
+ }
+ .three{
+  transform: translateX(200px);
+ }
+ .five{
+  transform: translateX(200px);
+ }
+ .d1{
+  transform: translateX(100px);
+ }
+ .d2{
+  transform: translateX(100px);
+ }
+ .d3{
+  transform: translateX(100px);
+ }
+ .dfourth{
+  transform: translate(-260px,160px);
+ }
+ .flogo{
+  transform: translate(100px,60px);
+ }
+ .first{
+  transform: translateX(100px);
+ }
+ .second{
+  transform: translateX(100px);
+ }
+ .third{
+  transform: translateX(100px);
+ }
+  }
+
+
+  @media screen and (max-width:769px){
+   /*header*/
+   .video{
+    max-width: 100%;
+    height: 100%;
+   }
+   .css-i4bv87-MuiSvgIcon-root{
+    transform: translate(-10px,-10px);
+    display: block !important;
+  }
+   .css-1kkpk3h-MuiButtonBase-root-MuiButton-root {
+    display: none !important;
+   }
+   .hlogo{
+    display: block !important;
+    width: 30%;
+   }
+   /* -----main-----*/
+   .css-i4bv87-MuiSvgIcon-root{
+    display: block !important;
+   }
+   .fading{
+    font-size: 28px;
+   }
+   .uk-h2, h2{
+    width: 52%;
+    transform: translateY(110px);
+   }
+   hr.new5{
+    transform: translateY(-20px);
+   } 
+   .com{
+    font-size: 33px;
+    transform: translate(-5px,-85px);
+    font-weight: 400;
+   }
+   .button1{
+    width: 25%;
+    transform: translateY(-110px);
+   }
+   .para{
+    transform: translateY(-100px);
+   }
+  .lin1{
+    display: block !important;
+    transform: translate(100px,-149px);
+  }
+  .twi1{
+    transform: translate(135px,-174px);
+  }
+    /*first slide*/
+  .header1{
+    font-size: 45px;
+    width: 65%;
+    transform: translateY(-180px);
+  }
+  .para1{
+    font-size: 22px;
+    width: 99%;
+    transform: translate(10px,-5px);
+  }
+  .vl1{
+    height: 200px;
+    text-align: justify !important;
+    transform: translateY(-160px);
+  }
+  /*second slide*/
+  .uk-card-default {
+    background-color: transparent;
+    color: #666;
+    transform: translate(10px,-340px);
+  }
+  .button2 {
+    background-color: transparent;
+    color: black;
+    border: 2px solid black;
+    width: 28%;
+    font-weight: 800;
+    font-size: 13px;
+    width: 47%;
+    transform: translate(-330px,160px);
+}
+.kiki{
+  font-size: 21px;
+    transform: translate(-330px,150px);
+    width: 110%;
+    font-weight: 490;
+}
+.uk-card-title {
+  font-size: 28px;
+  text-align: justify;
+  width: 50%;
+  font-weight: 400;
+  line-height: 1.1em;
+  letter-spacing: 1px;
+  transform: translate(-330px,150px);
+}
+/*third slide*/
+.header2{
+  font-size: 50px;
+  transform: translateY(-210px);
+}
+.para2{
+  font-size: 22px;
+  font-weight: 490;
+  width: 100%;
+  transform: translate(30px,-4px)
+}
+.vl2{
+  transform: translateY(-200px);
+  height: 167px;
+}
+/*fourth slide*/
+.header3{
+  font-size: 45px;
+  width: 110%;
+  transform: translate(-40px,-420px);
+}
+.para3{
+  width: 140%;
+  font-size: 22px;
+  font-weight: 500;
+  transform: translate(-40px,-410px);
+}
+.button3{
+  transform: translate(-40px,-390px);
+  width: 34%;
+  padding: 17px 20px;
+}
+/*card*/
+.css-mhc70k-MuiGrid-root{
+  transform: translateX(-10px);
+}
+/*corousal*/
+.crsl{
+  transform: translateY(-520px);
+}
+.uk-button.uk-button-default{
+  transform: translateX(-200px);
+}
+.word1{
+  transform: translate(-15px,10px);
+}
+.def{
+  transform: translate(-210px,10px);
+}
+.uk-button.uk-button-default1{
+  transform: translate(-200px,-30px);
+}
+.word2{
+  transform: translate(-15px,-40px);
+}
+.ent{
+  transform: translate(-180px,-80px);
+}
+.uk-button.uk-button-default2{
+  transform: translate(-200px,-30px);
+}
+.word3{
+  transform: translate(-15px,-40px); 
+}
+.sol{
+  transform: translate(-180px,-60px);
+}
+
+/*sixth slide*/
+.header4{
+  font-size: 50px;
+  font-weight: 300;
+  transform: translate(-40px,-10px);
+}
+.para4{
+  font-size: 22px;
+  font-weight: 490;
+  width: 104%;
+  text-align: left;
+}
+.vl{
+  transform: translate(-30px,10px);
+  height: 167px;
+}
+/*newSlide*/
+.container{
+  transform: translateY(-480px);
+}
+/*footer slide*/
+.last{
+  transform: translateY(-535px);
+  padding-top: 30px;
+}
+.flogo{
+  transform: translate(25px,40px);
+}
+.third{
+  transform: translate(30px,600px);
+}
+.second{
+  transform: translate(30px,600px);
+}
+.first{
+  transform: translate(30px,600px); 
+}
+.you{
+  transform: translate(600px,304px)
+}
+.lin{
+  transform: translate(560px,326px);
+}
+.twi{
+  transform: translate(520px,350px);
+}
+.line1{
+  transform: translateY(600px);
+}
+.d1{
+  transform: translate(-180px,190px);
+ } 
+ .d2{
+  transform: translate(-180px,180px);
+ }
+ .d3{
+  transform: translate(-180px,170px);
+ }
+ .dfourth{
+  transform: translate(-536px,330px);
+ }
+ .one{
+  transform: translate(-310px,430px);
+ }
+ .three{
+  transform: translate(-310px,420px);
+ }
+ .five{
+  transform: translate(-310px,410px);
+ }
+ .two{
+  transform: translate(-420px,610px);
+ }
+ .four{
+  transform: translate(-420px,600px);
+ }
+ .six{
+  transform: translate(-420px,590px);
+ }
+ }
+
+
+ @media screen and (max-width:426px){
+  /*main section*/
+  .video{
+    max-width: 100%;
+    transform: translateY(-480px);
+    position: fixed;
+  }
+  .css-1d4vqq0-MuiButtonBase-root-MuiListItemButton-root{
+    background-color: black !important;
+    color: white !important;
+  }
+  .css-1nvnyqx-MuiPaper-root-MuiDrawer-paper{
+    background-color: transparent !important;
+    color: transparent !important;
+    transform: translateX(90px) !important;
+    width: 500%;
+  }
+  .css-10hburv-MuiTypography-root{
+    transform: translateX(-4px);
+    text-align: justify;
+  }
+  .css-4t3x6l-MuiPaper-root-MuiDrawer-paper{
+    background-color: black  !important;
+      color: white !important;
+  }
+  .css-i4bv87-MuiSvgIcon-root{
+    transform: translateX(370px);
+  }
+  .hlogo{
+    display: block !important;
+    transform: translateX(100px);
+      width: 30%;
+   }
+   .button1{
+    width: 50%;
+    transform: translate(-20px,-100px);
+   }
+   .para{
+    font-size: 22px;
+    transform: translate(-20px,-65px);
+   }
+   .lin1{
+    transform: translate(75px,-125px);
+    font-size: 38px !important;
+   }
+   .twi1{
+    transform: translate(123px,-163px);
+    font-size: 38px !important;
+   }
+  .com{
+    transform: translate(-20px,-100px);
+    font-size: 22px;
+    width: 60%;
+  }
+  /*first slide*/
+  .header1{
+    font-size: 28px;
+    width: 88%;
+    transform: translate(-16px,300px);
+  }
+  .para1{
+    font-size: 18px;
+    width: 94%;
+    transform: translate(24px,1px);
+  }
+  .vl1{
+    height: 280px;
+    transform: translate(-15px,340px);
+  }
+  /*second slide*/
+  .uk-card-media-left.uk-cover-container{
+    transform: translate(40px,-630px);
+    width: 86%;
+  }
+  .uk-card-default{
+    padding-top: 1190px;
+  }
+  .uk-card-title{
+    transform: translate(-660px,-280px);
+    width: 170%;
+    font-size: 22px;
+  }
+  .kiki{
+    transform: translate(-660px,-280px);
+  }
+  .button2{
+    transform: translate(-660px,-250px);
+  }
+  /*third slide*/
+  .header2{
+    font-size: 30px;
+    transform: translate(-10px,-580px);
+  }
+  .para2{
+    font-size: 18px;
+    width: 100%;
+    transform: translate(24px,1px);
+  }
+  .vl2{
+    height: 255px;
+    transform: translate(-10px,-540px);
+  }
+  /*fourth slide*/
+  .header3{
+    font-size: 28px;
+    font-weight: 400;
+    width: 260%;
+    transform: translate(-38px,-700px);
+  }
+  .para3{
+    font-size: 20px;
+    font-weight: 400;
+    width: 300%;
+    transform: translate(-38px,-700px);
+  }
+  .button3{
+    width: 128%;
+    font-size: 15px;
+    transform: translate(-38px,-700px);
+  }
+  /*carousal*/
+  .crsl{
+    display: block !important;
+  }
+  .def{
+    font-size: 16px;
+    display: block !important;
+  }
+  .word1{
+    font-size: 14px;
+  }
+  .uk-button.uk-button-default{
+    font-size: 14px;
+    width: 50%;
+  }
+  .ent{
+    font-size: 16px;
+  }
+  .word2{font-size: 14px;}
+  .uk-button.uk-button-default1{width: 50%;font-size: 14px;}
+  .sol{font-size: 16px;}
+  .word3{font-size: 14px;}
+  .uk-button.uk-button-default2{width: 50%;font-size: 14px;}
+  /*sixth slide*/
+  .header4{
+    font-size: 28px;
+    font-weight: 400;
+    width: 260%;
+    transform: translate(-35px,-80px);
+  }
+  .para4{
+    font-size: 18px;
+    font-weight: 490;
+    width: 115%;
+    text-align: left;
+  }
+  .vl{
+    transform: translate(-30px,-50px);
+    height: 220px;
+  }
+  /*new slider*/
+  .container{
+    transform: translate(15px,-962px);
+    max-width: 100%;
+  }
+  /*footer*/
+  .last{
+    transform: translate(17px,-1004px);
+  }
+  .flogo{
+    transform: translateX(120px);
+  }
+  .twi{
+  transform: translate(140px,-480px);
+  }
+  .lin{
+    transform: translate(180px,-505px);
+  }
+  .you{
+    transform: translate(220px,-527px);
+  }
+  .line1{
+    display: none;
+  }
+  .first{transform: translate(60px,-200px);}
+  .second{transform: translate(-18px,-200px);
+          text-align: center;}
+  .third{transform: translate(-18px,-200px);
+        text-align: center;}
+ }
+
+
+
+ @media screen and (max-width:375px){
+  /*main*/
+  .video{
+    transform: translateY(-500px);
+  }
+  .com{
+    width: 90%;
+    font-size: 24px;
+    transform: translate(-20px,-80px);
+  }
+  .button1{
+    width: 55%;
+    transform: translate(-25px,-70px);
+ }
+ .para{
+  transform: translate(-20px,-40px);
+}
+.lin1{
+  transform: translate(75px,-100px);
+}
+.twi1{
+  transform: translate(120px,-140px);
+}
+/*first slide*/
+.header1{
+  transform: translate(-10px,300px);
+  width: 105%;
+}
+.para1{
+  width: 110%;
+}
+.vl1{
+  height: 300px;
+}
+/*second slide*/
+.uk-card-title{
+  width: 85%;
+}
+.button2{
+  width: 50%;
+}
+/*third slide*/
+.para2{
+  width: 110%;
+}
+/*fourth slide*/
+ .header3{
+  width: 300%;
+  font-size: 29px;
+ }
+ .para3{
+  width: 440%;
+  font-size: 22px;
+ }
+ .button3{
+  width: 240%;
+ }
+ /*corousal slides*/
+ .crsl{
+  transform: translateY(100px);
+  max-width: 100%;
+  position: fixed;
+ }
+ /*sixth slide*/
+ .header4{
+  width: 400%;
+ }
+ .para4{
+  width: 140%;
+  font-size: 22px;
+ }
+ .vl{
+  height: 310px;
+ }
+ .container{
+  transform: translateY(100px);
+ }
+ /*footer*/
+ .last{
+  transform: translateY(140px);
+ }
+ }
+
+ @media screen and (max-width:321px){
+  /*main slide*/
+  .video{
+    transform: translateY(-540px);
+  }
+  .button1{
+    width: 60%;
+  }
+  /*first slide*/
+  .header1{
+    width: 120%;
+    font-size: 30px;
+    transform: translate(-40px,380px);
+  }
+  .para1{
+    width: 140%;
+    font-size: 21px;
+    text-align: justify;
+    transform: translate(15px,-7px);
+  }
+  .vl1{
+    height: 425px;
+    padding-left: -3px;
+    padding-right: 2px;
+    transform: translate(-40px,400px);
+  }
+  .uk-card-media-left.uk-cover-container{
+    width: 90%;
+    transform: translate(18px,-604px);
+  }
+  .uk-card-title{
+    width: 130%;
+    font-size: 30px;
+    transform: translate(-685px,-268px);
+  }
+  .kiki{
+    font-size: 22px;
+    width: 140%;
+    transform: translate(-685px,-268px);
+  }
+  .button2{
+    width: 90%;
+    font-size: 14px;
+    padding: 15px 50px;
+    transform: translate(-685px,-240px);
+  }
+  .header2{
+    font-size: 40px;
+    transform: translate(-40px,-572px);
+  }
+  .para2{
+    font-size: 21px;
+    width: 135%;
+    transform: translateX(7px);
+  }
+  .vl2{
+    height: 415px;
+    padding-left: -10px;
+    padding-right: 3px;
+    transform: translate(-40px,-572px);
+  }
+  .header3{
+    width: 1400%;
+    font-size: 36px;
+    transform: translate(-60px,-800px);
+  }
+  .para3{
+    font-size: 22px;
+    width: 1300%;
+    transform: translate(-60px,-785px);
+  }
+  .button3{
+    width: 828%;
+    transform: translate(-60px,-765px);
+  }
+
+  .crsl{
+    transform: translate(-60px,-80px);
+  }
+  .header4{
+    transform: translate(-60px,-80px);
+  }
+  .para4{
+    font-size: 22px;
+    width: 160%;
+  }
+  .vl{
+    height: 400px;
+    transform: translate(-60px,-80px);
+  }
+  .container{
+    transform: translateX(2px);
+  }
+  .flogo{
+    transform: translateX(90px);
+  }
+  .first{
+    transform: translate(29px,-200px);
+  }
+  .second{
+    transform: translate(5px,-200px);
+  }
+  .third{
+    transform: translate(5px,-200px);
+  }
+  .twi{
+    transform: translate(110px,-480px);
+  }
+  .lin{
+    transform: translate(150px,-503px);
+  }
+  .you{
+    transform: translate(191px,-525px);
+  }
+  .last{
+    transform: translateX(5px);
+  }
+ }
